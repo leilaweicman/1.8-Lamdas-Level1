@@ -1,4 +1,4 @@
-package exercise3;
+package exercise4;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,6 +10,6 @@ public class Main {
                 "July", "August", "September", "October", "November", "December"
         );
 
-        months.forEach(month -> System.out.println(month));
+        months.forEach(System.out::println);
     }
 }
