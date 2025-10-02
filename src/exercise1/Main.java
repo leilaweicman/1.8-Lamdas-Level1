@@ -2,15 +2,14 @@ package exercise1;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
 
     public static void main(String[] args) {
+        List<String> words = Arrays.asList("apple", "orange", "banana", "cherry", "melon");
 
-    }
+        List<String> result = words.stream().filter(word -> word.contains("o")).toList();
 
-    public static void filterStringsContainingO() {
-
+        System.out.println("Words containing 'o': " + result);
     }
 }
