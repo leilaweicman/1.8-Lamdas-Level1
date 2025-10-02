@@ -1,5 +1,7 @@
 package exercise1;
 
+import common.StringFilterService;
+
 import java.util.Arrays;
 import java.util.List;
 
