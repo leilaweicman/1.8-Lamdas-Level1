@@ -96,12 +96,6 @@ git clone https://github.com/leilaweicman/1.8.Lambas-Level1.git
 cd 1.8.Lambas-Level1
 ```
 
-Then, create a `lib` folder and download the **Gson library** (required for JSON serialization):
-```sh
-mkdir -p lib
-curl -o lib/gson-2.10.1.jar https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-```
-
 ---
 
 ## ▶️ Execution
