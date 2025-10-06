@@ -11,12 +11,12 @@ public class SortService {
     public static List<Object> sortByLengthAsc(List<Object> items) {
         return items.stream()
                 .sorted(BY_LENGTH)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     public static List<Object> sortByLengthDesc(List<Object> items) {
         return items.stream()
                 .sorted(BY_LENGTH.reversed())
-                .collect(Collectors.toList());
+                .toList();
     }
 }
